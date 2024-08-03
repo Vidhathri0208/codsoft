@@ -1,0 +1,45 @@
+def addition():
+    sum1=n1+n2
+    print("Addition of n1 and n2 is ",sum1)
+def subtraction():
+    if(n1>n2):
+        sub=n1-n2
+        print("Subtraction of n1 and n2 is  ",sub)
+    else:
+        sub=n2-n1
+        print("Subtraction of n2 and n1 is ",sub)
+def multiplication():
+    mult=n1*n2
+    print("Multiplication of n1 and n2 is ",mult)
+def division():
+    div=n1/n2
+    print("Division of n1 and n2 is ",div)
+def modulus():
+    mod=n1%n2
+    print("Modulus of n1 and n2 is ",mod)
+
+
+#def main():
+n1=int(input("Enter  n1:"))
+n2=int(input("Enter n2:"))
+print("Welcome to Arithematic Caluculator")
+print("1.Addition")
+print("2.Subtraction")
+print("3.Multipication")
+print("4.Division")
+print("5.Modulus")
+choice=int(input("Enter your choice for arithematic operation: "))
+if(choice==1):
+    addition()
+elif (choice==2):
+    subtraction()
+elif (choice==3):
+    multiplication()
+elif (choice==4):
+    division()
+elif(choice==5):
+    modulus()
+else:
+    print("Invalid Choice")
+    
+    
